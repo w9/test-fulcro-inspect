@@ -1,0 +1,51 @@
+Info 0    [18:06:29.123] Starting TS Server
+Info 1    [18:06:29.123] Version: 4.7.4
+Info 2    [18:06:29.123] Arguments: /usr/bin/node /home/xzhu/.emacs.d/.local/etc/lsp/npm/typescript/lib/node_modules/typescript/lib/tsserver.js --logFile /home/xzhu/projects/divia/web_app/.log/tsserver.log --logVerbosity info --cancellationPipeName /tmp/4c5a0164430e9fd2d7999f6ea3c38017/tscancellation*
+Info 3    [18:06:29.123] Platform: linux NodeVersion: 18 CaseSensitive: true
+Info 4    [18:06:29.123] ServerMode: undefined syntaxOnly: false hasUnknownServerMode: undefined
+Info 5    [18:06:29.135] Format host information updated
+Info 6    [18:06:29.146] Search path: /home/xzhu/projects/divia/web_app/public_src
+Info 7    [18:06:29.147] For info: /home/xzhu/projects/divia/web_app/public_src/inlined.js :: No config files found.
+Info 8    [18:06:29.152] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 9    [18:06:30.314] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 1 structureChanged: true structureIsReused:: Not Elapsed: 1161.7645189911127ms
+Info 10   [18:06:30.314] Project '/dev/null/inferredProject1*' (Inferred)
+Info 11   [18:06:30.314] 	Files (34)
+
+Info 12   [18:06:30.314] -----------------------------------------------
+Info 13   [18:06:30.333] AutoImportProviderProject: attempted to add more than 10 dependencies. Aborting.
+Info 14   [18:06:32.079] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 15   [18:06:32.090] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 2 structureChanged: false structureIsReused:: Completely Elapsed: 10.889885991811752ms
+Info 16   [18:06:32.090] Different program with same set of files
+Info 17   [18:06:39.457] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 18   [18:06:39.462] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 3 structureChanged: false structureIsReused:: Completely Elapsed: 4.314263001084328ms
+Info 19   [18:06:39.462] Different program with same set of files
+Info 20   [18:06:39.982] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 21   [18:06:39.989] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 4 structureChanged: false structureIsReused:: Completely Elapsed: 6.5500859916210175ms
+Info 22   [18:06:39.989] Different program with same set of files
+Info 23   [18:06:41.800] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 24   [18:06:41.807] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 5 structureChanged: false structureIsReused:: Completely Elapsed: 6.514188006520271ms
+Info 25   [18:06:41.807] Different program with same set of files
+Info 26   [18:06:43.016] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 27   [18:06:43.022] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 6 structureChanged: false structureIsReused:: Completely Elapsed: 5.3387529999017715ms
+Info 28   [18:06:43.022] Different program with same set of files
+Info 29   [18:08:00.767] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 30   [18:08:00.777] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 7 structureChanged: false structureIsReused:: Completely Elapsed: 9.294814005494118ms
+Info 31   [18:08:00.777] Different program with same set of files
+Info 32   [18:08:01.261] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 33   [18:08:01.269] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 8 structureChanged: false structureIsReused:: Completely Elapsed: 7.913192987442017ms
+Info 34   [18:08:01.269] Different program with same set of files
+Info 35   [18:08:03.966] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 36   [18:08:03.975] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 9 structureChanged: false structureIsReused:: Completely Elapsed: 9.054673001170158ms
+Info 37   [18:08:03.975] Different program with same set of files
+Info 38   [18:09:27.692] Search path: /home/xzhu/projects/divia/web_app/public_dev/js
+Info 39   [18:09:27.692] For info: /home/xzhu/projects/divia/web_app/public_dev/js/main.js :: No config files found.
+Info 40   [18:09:27.695] Starting updateGraphWorker: Project: /dev/null/inferredProject2*
+Info 41   [18:09:28.254] Finishing updateGraphWorker: Project: /dev/null/inferredProject2* Version: 1 structureChanged: true structureIsReused:: Not Elapsed: 558.4089120030403ms
+Info 42   [18:09:28.254] Project '/dev/null/inferredProject2*' (Inferred)
+Info 43   [18:09:28.254] 	Files (34)
+
+Info 44   [18:09:28.254] -----------------------------------------------
+Info 45   [18:09:28.259] AutoImportProviderProject: attempted to add more than 10 dependencies. Aborting.
+Info 46   [18:11:15.515] Skipped loading contents of large file /home/xzhu/projects/divia/web_app/public_dev/js/main.js for info /home/xzhu/projects/divia/web_app/public_dev/js/main.js: fileSize: 13615158
+Info 47   [18:11:21.238] FileWatcher:: Triggered with /home/xzhu/projects/divia/web_app/public_dev/js/main.js 2:: WatchInfo: /home/xzhu/projects/divia/web_app/public_dev/js/main.js 500 undefined WatchType: Closed Script info
+Info 48   [18:11:21.238] Elapsed:: 0.36316099762916565ms FileWatcher:: Triggered with /home/xzhu/projects/divia/web_app/public_dev/js/main.js 2:: WatchInfo: /home/xzhu/projects/divia/web_app/public_dev/js/main.js 500 undefined WatchType: Closed Script info

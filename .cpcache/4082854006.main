@@ -1,0 +1,6 @@
+-m
+nrepl.cmdline
+--port
+9000
+--middleware
+[shadow.cljs.devtools.server.nrepl/middleware,refactor-nrepl.middleware/wrap-refactor,cider.nrepl/cider-middleware]
