@@ -1,0 +1,24 @@
+{:paths ["src/clj" "src/cljc" "resources"]
+
+ :deps {binaryage/devtools {:mvn/version "1.0.6"}
+        cider/cider-nrepl {:mvn/version "0.28.5"}
+        cider/piggieback {:mvn/version "0.5.3"}
+        com.fulcrologic/fulcro {:mvn/version "3.5.25"}
+        com.taoensso/timbre {:mvn/version "5.2.1"}
+        kibu/pushy {:mvn/version "0.3.8"}
+        nrepl/nrepl {:mvn/version "1.0.0"}
+        org.clojure/clojure {:mvn/version "1.11.1"}
+        org.clojure/clojurescript {:mvn/version "1.11.60"}
+        org.clojure/tools.namespace {:mvn/version "1.3.0"}
+        refactor-nrepl/refactor-nrepl {:mvn/version "3.5.5"}
+        thheller/shadow-cljs {:mvn/version "2.20.1"}
+        com.cognitect/transit-cljs {:mvn/version "0.8.280"}}
+
+;; https://www.oracle.com/java/technologies/javase/release-notes-introduction.html#:~:text=OmitStackTraceInFastThrow
+ :jvm-opts ["-XX:-OmitStackTraceInFastThrow"]
+
+ :aliases {:cljs {:extra-paths ["src/cljs" "src/js"]}
+
+           :cider/nrepl {:main-opts ["-m" "nrepl.cmdline"
+                                     "--port" "9000"
+                                     "--middleware" "[shadow.cljs.devtools.server.nrepl/middleware,refactor-nrepl.middleware/wrap-refactor,cider.nrepl/cider-middleware]"]}}}

@@ -1,0 +1,10 @@
+{:deps {:aliases [:cljs]}
+
+ :builds {:app {:target :browser
+                :modules {:main {:init-fn app.client-main/init!}}
+                :output-dir "public/js"
+                :asset-path "/js"
+                :devtools {:after-load app.client-main/refresh!
+                           :preloads [com.fulcrologic.fulcro.inspect.preload
+                                      com.fulcrologic.fulcro.inspect.dom-picker-preload]
+                           :repl-pprint true}}}}
